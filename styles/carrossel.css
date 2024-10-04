@@ -1,0 +1,144 @@
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: -400px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    margin-left: 8em;
+    width: 500px;
+    height: 400px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.manual-btn{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 32px;
+}
+.manual-btn:hover{
+    background-color: black;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%
+}
+#radio3:checked ~ .first{
+    margin-left: -50%
+}
+#radio4:checked ~ .first{
+    margin-left: -75%
+}
+.navigation-auto div{
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Início Carrossel 2 */
+
+.puffle-container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1dba8b;
+}
+.gallery-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.gallery-1{
+    display: flex;
+    position: absolute;
+}
+.gallery-2{
+    display: flex;
+    position: absolute;
+}
+.gallery-3{
+    display: flex;
+    position: absolute;
+}
+.gallery-4{
+    display: flex;
+    position: absolute;
+}
+
+#previous-, #next-{
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: 2s;
+}
+#previous-:hover, #next-:hover{
+    opacity: 1;
+}
+#previous- img, 
+#next- img{
+    width: 100px;
+    height: 200px;
+}
+#previous-{
+    transform:rotate(180deg);
+}
+.puffle-items{
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+}
+.puffle{
+    width: 300px;
+    height: 300px;
+    border: 8px solid black;
+    opacity: 0;
+    background-color: #FFF;
+    transition: 1s;
+}
+.on{
+    opacity: 1;
+}

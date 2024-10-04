@@ -1,0 +1,118 @@
+/* 
+Paleta de Cores:
+#262626 - Eerie Black
+#1A936F - Sea Green
+#FFD447 - Mustard
+#5788d8 True Blue
+#7272AB - Glaucous
+*/
+
+/* Imagem */
+.tbody-config{
+    background-color: #2dcc9c;
+}
+.product-image{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 200px;
+    justify-content: space-evenly;
+}
+.puffle-product{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, 
+                                       rgba(255,212,71,1) 4%, 
+                                       rgba(255,212,71,1) 96%, 
+                                       rgba(255,255,255,1) 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin-top: 50px;
+}
+.puffle-product strong{
+    justify-content: center;
+}   
+.product-price{
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 5px;
+}
+.cart-product-title{
+    text-align: center;
+    font-size: 26px;
+}
+.cart-product-price{
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+.product-qtd-input{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.remove-product-btn{
+    background-color: rgb(255, 56, 56);
+    padding: 20px;
+    font-size: 16px;
+}
+.remove-product-btn:hover{
+    background-color: rgb(218, 0, 0);
+    transition: 0.5s;
+}
+
+.cart-total-container{
+    font-size: 32px;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: end;
+}
+.product-identificator{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-quantities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.purchase-button{
+    background-color: #5788d8;
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    font-size: 32px;
+    color: #FFF;
+    margin-top: 30px;
+}
+.button-hover-background{
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    opacity: 0.5;
+    background-color: #ebb916;
+}
+.button-hover-background:hover{
+    opacity: 1;
+    background-color: #ebb916;
+    transition: 0.5s;
+}

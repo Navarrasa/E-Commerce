@@ -1,0 +1,299 @@
+<!-- Puffles do Clube Penguim -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="styles/home-page.css">
+  <link rel="stylesheet" href="styles/loja.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/carrossel.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/images.css">
+  <link rel="stylesheet" href="styles/text.css">
+  <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clube Penguim Online</title>
+</head>
+<body>
+  <!-- Inicio Header -->
+  <header id="header-page">
+    <nav id="navbar">
+      <ul>
+        <a href="index.html"><img src="icons/Bosch_symbol_logo_white.svg" alt="Logo Bosch"id="logo"></a>      
+        <div class="div-navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/login.html">Login</a></li>
+          <li><a href="pages/shopkart.html">
+              <img src="icons/shoppingcart-switch.svg" 
+              alt="Carrinho de Compras" class="shopkart">
+          </a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+<!-- FIm Header -->
+<main id="main-page"> 
+  <h1 id="main-text">Os <a href="#a">Puffles</a> mais fofinhos do<a href="#cb"> Clube Penguim</a>!</h1>
+  <!-- Carrossel -->
+  <div class="slider">
+    <div class="slides">
+      <!-- Radio Buttons -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!-- Fim Radio Buttons -->
+    <div class="slide first">
+      <img src="media/puffles_clube/puffle_laranja.svg" alt="Puffle Laranja">
+    </div>
+    <div class="slide">
+      <img src="media/puffles_clube/brabo.svg" alt="Puffle Bravo">
+    </div>
+    <div class="slide">
+      <img src="media/puffles_clube/alce.svg" alt="Puffle Alce">
+    </div>
+    <div class="slide">
+      <img src="media/puffles_clube/dourado.svg" alt="Puffle Dourado">
+    </div>
+    <!-- Fim Slides -->
+    <!-- Navegação automática -->
+     <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+     </div>
+    </div>
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2"class="manual-btn"></label>
+      <label for="radio3"class="manual-btn"></label>
+      <label for="radio4"class="manual-btn"></label>
+    </div>
+  </div>
+  <!-- Fim Carrossel -->
+  
+  <div class="bloco texto">.</div>
+
+  <!-- Parágrafo -->
+  <p class="paragrafo-p">Compre os pets mais fofinhos do mundo!</p>
+  <!-- Inicio Carrossel 2 -->
+  <div class="puffle-container">
+    <button id="previous-"><img src="media/seta-direita.png" alt="Seta Esquerda"></button>
+      <div class="gallery-wrapper">
+        <div class="gallery-1" id="">
+          <div class="puffle-items"><img src="media/puffles_clube/alce.png" alt="Puffle Alce" class="puffle on"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/brabo.png" alt="Puffle Bravo"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/cachorro.png" alt="Puffle Cachorro"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/dourado.png" alt="Puffle Dourado"class="puffle"></div>
+        </div>
+        <div class="gallery-2">
+          <div class="puffle-items"><img src="media/puffles_clube/galinha.png" alt="Puffle Galinha"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/puffle_laranja.png" alt="Puffle Laranja"class="puffle on"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/pufflearcoiris.png" alt="Puffle Arco-Íris"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/puffleazul.png" alt="Puffle Azul"class="puffle"></div>
+        </div>
+        <div class="gallery-3">
+          <div class="puffle-items"><img src="media/puffles_clube/pufflebranco.png" alt="Puffle Branco"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/pufflepreto.png" alt="Puffle Preto"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/pufflerosa.png" alt="Puffle Rosa"class="puffle on"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/puffleroxo.png" alt="Puffle Roxo"class="puffle"></div>
+        </div>
+        <div class="gallery-4">
+          <div class="puffle-items"><img src="media/puffles_clube/unicornio.png" alt="Puffle Unicornio"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/verde.png" alt="Puffle Verde"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/cupcake.jpg" alt="Puffle Cupcake"class="puffle"></div>
+          <div class="puffle-items"><img src="media/puffles_clube/alce.svg" alt="Puffle Verde"class="puffle on"></div>
+        </div>
+      </div>
+    <button id="next-"><img src="media/seta-direita.png" alt="Seta Direita"></button>
+  </div>
+  <!-- Fim Carrossel 2 -->
+
+  <div id="a" class="bloco texto">.</div>
+
+  <p  class="paragrafo-p">Produtos disponíveis em nosso estoque</p>
+  <div id="loja-container">
+    <div class="produtos-loja">
+      <!-- Card Alce -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/alce.png" alt="Puffle Alce" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Alce</p>
+          <p class="text-body">Este Puffle é muito procurado nos períodos natalinos devido as suas vantagens na neve!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$99.99</span>
+            <div class="card-button"><a href="pages/shopkart.html"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></a></div>
+        </div>
+      </div>
+      <!-- Card  -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/brabo.png" alt="Puffle Bravo" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Bravo</p>
+          <p class="text-body">Este Puffle só aparenta ser bravo, mas na verdade, é um docinho, tímido, porém uma boa compania!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$119.99</span>
+            <div class="card-button"><a href="pages/shopkart.html"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></a></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/cachorro.png" alt="Puffle Cachorro" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Cachorro</p>
+          <p class="text-body">O Puffle cachorro é um ótimo companheiro em situações diversas! Ele até participa de aventuras!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$129.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/cupcake.jpg" alt="Puffle Cupcake" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Cupcake</p>
+          <p class="text-body">Este Puffle é muito procurado em período festivo! É um ótimo parceiro para a comer doces!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$99.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/dourado.jpeg" alt="Puffle Dourado" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Dourado</p>
+          <p class="text-body">Este Puffle é muito procurado nos por conseguir buscar riquezas naturalmente!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$599.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/galinha.png" alt="Puffle Galinha" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Galinha</p>
+          <p class="text-body">Este Puffle nos proporciona grande fartura nos festivais de ovos, pois ele é o maior produtor!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$369.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/puffle_laranja.png" alt="Puffle Laranja" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Laranja</p>
+          <p class="text-body">Este Puffle nos proporciona grandes momentos de felicidade e os melhores sucos de laranja!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$175.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/pufflearcoiris.png" alt="Puffle Arco-Iris" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Arco-Íris</p>
+          <p class="text-body">Este Puffle é muito famoso por sempre estar presente em vídeos de grandes famosos!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$929.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/puffleazul.png" alt="Puffle Azul" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Azul</p>
+          <p class="text-body">Esse Puffle nos proporciona grandes momentos de relaxamento por conta da sua cor azul!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$419.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/pufflebranco.png" alt="Puffle Branco" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Branco</p>
+          <p class="text-body">Este Puffle é muito bom no esconde-esconde, se precisar também, ele cozinha!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$99.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/pufflerosa.jpeg" alt="Puffle Rosa" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Puffle Rosa</p>
+          <p class="text-body">Este Puffle é solicitado para pessoas que precisam de apoio emocional, carinho e ternura</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$59.99</span>
+            <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card-img"><img src="media/puffles_clube/puffleroxo.png" alt="Puffle Roxo" class="imagem-puffle-card"></div>
+        <div class="card-info">
+          <p class="text-title">Alce Roxo </p>
+          <p class="text-body">Este Puffle é um ótimo parceira para jogar videogame junto. Ele já zerou diversos!</p>
+        </div>
+        <div class="card-footer">
+            <span class="text-title">R$99.99</span>
+        <div class="card-button"><img src="icons/shoppingcart-switch.svg" alt="Carrinho de Compras" class="icon"></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- Fim do Card -->
+    <div id="cb" class="bloco texto">.</div>
+    <p class="paragrafo-p">Sobre o Clube Penguim</p>
+  <div class="cb-img-p">
+    <img src="media/clube_penguim.jpg" alt="Logo CLube Penguim" class="cb-img">
+    <p class="texto clube">O Club Penguin é um <strong>MMORPG (Massively Multiplayer Online Role-Playing Game)</strong> criado por New Horizon Interactive no verão de 2005. 
+      Ele teve um público Teste Beta em agosto de 2005, e foi lançado oficialmente em 24 de outubro de 2005. Mais tarde foi comprado pela Disney em agosto de 2007. 
+      Trata-se de um mundo virtual, onde os jogadores são pinguins, 
+      e apresenta uma grande variedade de minigames e outras atividades on-line, e se passa em uma ilha de neve, que tem o nome do jogo.</p>
+  </div>
+</main>
+
+  <footer id="footer-page-index">
+    <div class="texto-flutuante texto-footer">
+      <p>Compre os Puffles mais fofinhos do Brasil!</p>
+      <p>Descontos com pagamentos no PIX!!!</p>
+      <p>Não perca a oportunidade!</p>
+    </div>
+    <div class="texto-footer texto-flutuante">
+      <p>Entre em contato conosco!</p>
+      <p>Temos produtos de qualidade altíssima!</p>
+    </div>
+    <div class="texto-footer">
+      <ul class="network">
+        <li><a href="">gugubrunopf@gmail.com</a></li>
+        <li><a href="https://github.com/Navarrasa"><img src="icons/git-hub.svg" alt="GitHub" class="icon"></a></li>
+        <li><a href="https://www.instagram.com/gustavo_locutor/"><img src="icons/instagram.svg" alt="Instagram" class="icon"></a></li>
+        <li><a href="https://www.linkedin.com/in/gustavo-bruno-90344a272/"><img src="icons/linkedin.svg" alt="LinkedIn" class="icon"></a></li>
+      </ul>
+    </div>  
+  </footer>
+  <script src="scripts/carrossel.js"></script>
+  <script src="scripts/galeria1.js"></script>
+</body>
+</html>

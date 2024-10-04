@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+Paleta de Cores:
+#262626 - Eerie Black
+#1A936F - Sea Green
+#FFD447 - Mustard
+#5788d8 True Blue
+#7272AB - Glaucous
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #262626;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfdfd;
+  height: 100vh;
+}
