@@ -1,6 +1,6 @@
 #logo{
   width: 200px;
-  height: 100px;
+  height: 95px;
   margin-left: 20px;
 }.shopkart{
   width: 60px;
@@ -17,4 +17,9 @@
 .cb-img{
   width: 600px;
   height: 600px;
+}
+.iterable-shopkart{
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }

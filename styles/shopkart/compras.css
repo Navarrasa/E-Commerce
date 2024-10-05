@@ -116,3 +116,7 @@ Paleta de Cores:
     background-color: #ebb916;
     transition: 0.5s;
 }
+.purchase-button:hover{
+    background-color: #1e57b3;
+    transition: 0.5s;
+}
